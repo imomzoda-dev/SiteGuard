@@ -1,0 +1,21 @@
+# В репозиторий публикуются только README и скриншоты.
+# Исходный код и артефакты сборки не публикуются.
+
+# Исходный код
+siteguard/
+main.py
+build.py
+requirements.txt
+
+# Сборка
+build/
+dist/
+*.spec
+__pycache__/
+*.py[cod]
+
+# Прочее
+*.log
+*.tmp
+.venv/
+venv/
